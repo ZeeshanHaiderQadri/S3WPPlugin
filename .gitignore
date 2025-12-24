@@ -1,0 +1,39 @@
+# Dependencies
+vendor/
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Zip files (distributable packages)
+*.zip
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache
+.cache/
+*.cache
+
+# Composer
+composer.lock
+
+# Laravel specific (for license-server)
+license-server/storage/*.key
+license-server/storage/logs/*
+license-server/bootstrap/cache/*
+!license-server/storage/logs/.gitkeep
+!license-server/bootstrap/cache/.gitkeep

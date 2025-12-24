@@ -1,0 +1,21 @@
+{
+    "name": "yourcompany/wp-cloud-media-offload",
+    "description": "Professional WordPress plugin for AWS S3 and CloudFront media offloading",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Your Company",
+            "email": "support@yourcompany.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "aws/aws-sdk-php": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPCMO\\": "includes/"
+        }
+    }
+}
